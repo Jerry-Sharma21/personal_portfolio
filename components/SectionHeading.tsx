@@ -7,7 +7,11 @@ type SectionHeadingProps = {
 const SectionHeading: React.FC<SectionHeadingProps> = ({
   children,
 }: SectionHeadingProps) => {
-  return <div className="text-3xl font-medium capitalize mb-8">{children}</div>;
+  return (
+    <div className="text-3xl font-medium capitalize mb-8 text-center">
+      {children}
+    </div>
+  );
 };
 
 export default SectionHeading;

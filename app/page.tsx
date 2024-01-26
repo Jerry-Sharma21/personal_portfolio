@@ -2,6 +2,7 @@ import React from 'react';
 
 import About from '@/components/About';
 import Intro from '@/components/Intro';
+import Projects from '@/components/Projects';
 import SectionDivider from '@/components/SectionDivider';
 
 const Home: React.FC = () => {
@@ -10,6 +11,7 @@ const Home: React.FC = () => {
       <Intro />
       <SectionDivider />
       <About />
+      <Projects />
     </main>
   );
 };
