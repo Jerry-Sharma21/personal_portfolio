@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import React from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
 import { motion } from 'framer-motion';

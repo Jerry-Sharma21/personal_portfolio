@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect } from 'react';
+import React from 'react';
 
 import Project from './Project';
 import SectionHeading from './SectionHeading';
@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
   const { ref } = useSectionInView('Projects', 0.5);
 
   return (
-    <section className="scroll-mt-28" id="projects" ref={ref}>
+    <section className="scroll-mt-28 mb-28" id="projects" ref={ref}>
       <SectionHeading>My Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
