@@ -23,7 +23,7 @@ const Project: React.FC<IProjectProps> = props => {
     <motion.div
       ref={ref}
       style={{
-        scale: scrollYProgress,
+        scale: scaleProgress,
         opacity: opacityProgress,
       }}
       className='group mb-3 sm:mb-8 last:mb-0"'
