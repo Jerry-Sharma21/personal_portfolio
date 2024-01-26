@@ -1,9 +1,9 @@
 import React from 'react';
-
 import { FaReact } from 'react-icons/fa';
 import { CgWorkAlt } from 'react-icons/cg';
-import rmtdevImg from '@/public/rmtdev.png';
 import { LuGraduationCap } from 'react-icons/lu';
+
+import rmtdevImg from '@/public/rmtdev.png';
 import corpcommentImg from '@/public/corpcomment.png';
 import wordanalyticsImg from '@/public/wordanalytics.png';
 

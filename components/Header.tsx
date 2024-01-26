@@ -1,10 +1,8 @@
 'use client';
-
 import React from 'react';
-
+import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-import Link from 'next/link';
 import { links } from '@/lib/Data';
 
 const Header: React.FC = () => {
