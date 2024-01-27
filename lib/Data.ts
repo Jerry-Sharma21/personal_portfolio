@@ -40,18 +40,18 @@ export const experiencesData = [
     date: '2019',
   },
   {
-    title: 'Front-End Developer at 314e',
+    title: 'Software Developer at 314e',
     location: 'Bangalore, Karnataka',
     description:
-      'Key member in the development of a new and complex ATS and CRM product. Specialized in React, Redux, Kea.js, TypeScript, and utilized the Ant Design (antd) library for UI components. Responsible for writing comprehensive unit test cases for the UI, ensuring code quality and reliability. Iimplemented design changes to enhance the product visual appeal and usability. Contributed to the creation of new complex functionalities, enhancing the overall capability of the product. Regularly participated in bug fixing, ensuring a smooth and error-free user experience',
+      "As a key member in the development of a new and complex ATS and CRM product, I specialized in React, Redux, Kea.js, TypeScript, and utilized the Ant Design (antd) library for UI components. My responsibilities included writing comprehensive unit test cases for the UI to ensure code quality and reliability. I implemented design changes to enhance the product's visual appeal and usability, contributing to an improved overall user experience. Additionally, I played a crucial role in the creation of new, complex functionalities, thereby enhancing the product's capabilities. I actively participated in bug fixing to ensure a smooth and error-free user experience. My commitment to maintaining the highest standards in development contributed to the success and robustness of the ATS and CRM product.",
     icon: React.createElement(CgWorkAlt),
     date: 'Jan/2022 - May/2023',
   },
   {
-    title: 'Front-End Developer at Eder labs',
+    title: 'Software Developer at Eder labs',
     location: 'Bangalore, Karnataka',
     description:
-      'Sole Front End Engineer, responsible for codebase transition from Vue.js to React.js. achieving faster UI. Implemented new UI designs in React, ensuring efficiency and technological soundness. Collaborated with the design team to create visually appealing and robust interfaces. Integrated APIs, Auth0, Redux, and other libraries, enhancing functionality, state management, and security. Fixed 100% of bugs raised in production.',
+      'As the sole Front-End Engineer, I was responsible for transitioning the codebase from Vue.js to React.js, aiming to achieve a faster UI. I implemented new UI designs in React, ensuring efficiency and technological soundness. Collaborating closely with the design team, I created visually appealing and robust interfaces. I seamlessly integrated APIs, Auth0, Redux, and other libraries to enhance functionality, state management, and security. Notably, I successfully addressed 100% of the bugs raised in production, contributing to a more stable and reliable application.',
     icon: React.createElement(CgWorkAlt),
     date: 'July/2023 - Jan/2024',
   },
