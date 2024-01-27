@@ -1,7 +1,8 @@
 'use client';
-import { useTheme } from '@/context/ThemeContext';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { BsMoon, BsSun } from 'react-icons/bs';
+
+import { useTheme } from '@/context/ThemeContext';
 
 type Theme = 'light' | 'dark';
 

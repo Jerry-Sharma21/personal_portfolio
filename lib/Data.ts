@@ -1,11 +1,8 @@
 import React from 'react';
-import { FaReact } from 'react-icons/fa';
 import { CgWorkAlt } from 'react-icons/cg';
 import { LuGraduationCap } from 'react-icons/lu';
 
-import rmtdevImg from '@/public/rmtdev.png';
-import corpcommentImg from '@/public/corpcomment.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import clone from '@/public/clone.png';
 
 export const links = [
   {
@@ -36,52 +33,56 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated Bootcamp',
-    location: 'Miami, FL',
-    description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+    title: 'B.tech',
+    location: 'Jaipur, Rajasthan',
+    description: 'Graduated from The LNM institute of information Technology',
     icon: React.createElement(LuGraduationCap),
     date: '2019',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Front-End Developer at 314e',
+    location: 'Bangalore, Karnataka',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'Key member in the development of a new and complex ATS and CRM product. Specialized in React, Redux, Kea.js, TypeScript, and utilized the Ant Design (antd) library for UI components. Responsible for writing comprehensive unit test cases for the UI, ensuring code quality and reliability. Iimplemented design changes to enhance the product visual appeal and usability. Contributed to the creation of new complex functionalities, enhancing the overall capability of the product. Regularly participated in bug fixing, ensuring a smooth and error-free user experience',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: 'Jan/2022 - May/2023',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Front-End Developer at Eder labs',
+    location: 'Bangalore, Karnataka',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'Sole Front End Engineer, responsible for codebase transition from Vue.js to React.js. achieving faster UI. Implemented new UI designs in React, ensuring efficiency and technological soundness. Collaborated with the design team to create visually appealing and robust interfaces. Integrated APIs, Auth0, Redux, and other libraries, enhancing functionality, state management, and security. Fixed 100% of bugs raised in production.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'July/2023 - Jan/2024',
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: 'CorpComment',
-    description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: corpcommentImg,
+    title: 'EasyEscapes.com',
+    description: 'I build a Hotel booking app.',
+    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind', 'Express', 'Typescript'],
+    imageUrl: clone,
   },
   {
-    title: 'rmtDev',
-    description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
-    imageUrl: rmtdevImg,
+    title: 'Trend Tales',
+    description: 'I build a blog app',
+    tags: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'Tailwind',
+      'Redux',
+      'Express',
+      'MongoDB',
+    ],
+    imageUrl: clone,
   },
   {
-    title: 'Word Analytics',
-    description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
-    imageUrl: wordanalyticsImg,
+    title: 'Netflix Clone',
+    description: 'I build a clone of Netflix',
+    tags: ['React', 'Typescript', 'CSS', 'Less'],
+    imageUrl: clone,
   },
 ] as const;
 
@@ -93,16 +94,13 @@ export const skillsData = [
   'React',
   'Next.js',
   'Node.js',
+  'Vue.js',
+  'Kea.js',
+  'Lodash',
   'Git',
   'Tailwind',
-  'Prisma',
   'MongoDB',
   'Redux',
-  'GraphQL',
-  'Apollo',
   'Express',
-  'PostgreSQL',
-  'Python',
-  'Django',
   'Framer Motion',
 ] as const;

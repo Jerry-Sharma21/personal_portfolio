@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
 
   return (
     <section className="scroll-mt-28 mb-28" id="projects" ref={ref}>
-      <SectionHeading>My Projects</SectionHeading>
+      <SectionHeading>My Personal Projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>

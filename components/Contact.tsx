@@ -1,12 +1,12 @@
 'use client';
 
-import { useSectionInView } from '@/lib/Hooks';
 import React from 'react';
-import SectionHeading from './SectionHeading';
-import { FaPaperPlane } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { sendEmail } from '@/actions/SendEmail';
+
+import SectionHeading from './SectionHeading';
 import SubmitButton from './SubmitButton';
+import { useSectionInView } from '@/lib/Hooks';
+import { sendEmail } from '@/actions/SendEmail';
 
 const Contact: React.FC = () => {
   const { ref } = useSectionInView('Contact');
@@ -24,11 +24,11 @@ const Contact: React.FC = () => {
       <SectionHeading>Contact Me</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at {''}
-        <a className="underline" href="mailto:">
+        Please contact me directly at{' '}
+        <a className="underline" href="mailto:er.abhijeetsharma14@gmail.com">
           er.abhijeetsharma14@gmail.com
-        </a>
-        {''} or through this form.
+        </a>{' '}
+        or through this form.
       </p>
 
       <form
