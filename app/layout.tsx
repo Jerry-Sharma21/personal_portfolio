@@ -1,5 +1,5 @@
 import React from 'react';
-import { Inter } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
@@ -9,7 +9,7 @@ import { ActiveSectionContextProvider } from '@/context/ActiveSectionContext';
 
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Poppins({ subsets: ['latin'], weight: '400' });
 
 export const metadata = {
   title: 'Abhijeet | Personal Portfolio',
